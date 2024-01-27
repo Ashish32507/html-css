@@ -1,0 +1,492 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    padding: 0 3vw;
+    background-color: black;
+    border-bottom:2px solid white;
+    position: sticky;
+    top: 0;
+}
+nav{
+    width: 100%;
+    height: 4vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;  
+    
+}
+nav h2{
+    font-size: 2.3vw;
+    color: rgb(225, 225, 81); 
+}
+nav ul{
+    display: flex;
+    gap: 1.5vw;
+    font-size: 1.8vw;
+    
+}
+nav ul li{
+    list-style: none;
+    padding: 0.5rem;
+    background-color: white;
+    color: black;
+    border-radius: 0.2rem;
+}
+
+.search i{
+    margin-left: -1.8vw;
+    font-size: 1.4vw;
+    color: black;
+    background-color: white;
+}
+nav input{
+    width: 30vw;
+    height: 2.5vw;
+    border: none;
+    outline: none;
+    font-size: 1.4vw;
+    border-radius: 0.5vw;
+    padding-left: 0.3vw;
+}
+
+
+.hero-outer{
+    width: 100%;
+    background-color: black;
+    height: 40vw;
+    padding: 1.5vw 3vw;
+}
+
+.hero-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-inner h1{
+   font-size: 5vw;
+   color: white;
+}
+.hero-inner p{
+    font-size: 1.8vw;
+    color: white;
+ }
+
+.hero-inner button{
+    width: 15vw;
+    margin-top: 1vw;
+    font-size: 2vw;
+    padding: 0.5vw;
+    background-color: rgb(230, 151, 31);
+    border: none;
+    border-radius: 0.2vw;
+ }
+.hero-inner img{
+    height: 35vw;
+}
+
+.food-card-outer{
+    width: 100%;
+    height: 73vw;
+    background-color: aliceblue;
+    text-align: center;
+    padding: 1.5vw 3vw;
+}
+
+.food-card-outer span{
+    color: rgb(230, 151, 31);
+}
+.food-card-outer h2{
+    font-size: 3vw;
+}
+
+.food-card-inner{
+    padding-top:1.5vw ;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.food-item{
+    width: 25vw;
+    height: 32vw;
+    border: 2px solid black;
+    text-align: left;
+    border-radius: 1.2vw;
+}
+
+.food-item img{
+    padding: 0.5vw;
+overflow: hidden;
+}
+
+.food-item h2{
+   padding-left: 0.5vw;
+}
+.food-item p{
+    padding-left: 0.5vw;
+    font-size: 1.5vw;
+}
+
+.food-item button{
+    margin-left: 0.5vw;
+    margin-top: 0.5vw;
+    font-size: 2vw;
+    width: 12vw;
+    height: 3vw;
+    padding: 0.1vw 1vw;
+    background-color: rgb(230, 151, 31);
+    border: none;
+    border-radius: 0.1vw;
+}
+.food-item img{
+    width: 25vw;
+    height: 18vw;
+}
+
+.food-item:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
+.customer-outer{
+    text-align: center;
+    width: 100%;
+    height: 35vw;
+    background-color: black;
+    color: white;
+    padding: 1.5vw 3vw;
+}
+
+.customer-outer h2{
+    font-size: 2.5vw;
+}
+
+.customer-inner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5vw 0;
+    border-radius: 1.2vw;
+}
+
+.customer-review{
+    width: 80vw;
+    height: 22vw;
+    background-color: aliceblue;
+    color: black;
+    justify-content: center;
+    padding: 2vw 4vw;
+
+}
+.customer-review h4{
+    margin-top: 0.5vw;
+    font-size: 2vw;
+
+}
+.customer-review p{
+    font-size: 1.5vw;
+    margin-top: 0.5vw;
+
+}
+
+.customer-review img{
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+}
+
+.review-btn{
+    margin-left: 0.5vw;
+    margin-top: 0.5vw;
+    font-size: 2vw;
+    width: 12vw;
+    height: 3vw;
+    padding: 0.1vw 1vw;
+    background-color: rgb(230, 151, 31);
+    border: none;
+    border-radius: 0.1vw;
+}
+
+
+footer{
+    padding: 0 4vw;
+    background-color: white;
+    border-top:2px solid white;
+    width: 100%;
+    height: 10vw;
+}
+
+.footer-menu{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 0.5vw;
+    font-size: 1.5vw;
+}
+
+.footer-menu ul{
+   list-style: none;
+}
+
+
+
+
+
+
+@media (max-width:800px) {
+    .menu-icon{
+        display: none;
+    }
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    header{
+        padding: 0 3vh;
+        background-color: black;
+        border-bottom:2px solid white;
+        position: sticky;
+        top: 0;
+    }
+    nav{
+        width: 100%;
+        height: 5.5vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: white;  
+        
+    }
+    nav h2{
+        font-size: 2.3vh;
+        color: rgb(225, 225, 81); 
+    }
+    nav ul{
+        display: flex;
+        gap: 1.5vh;
+        font-size: 1.8vh;
+        
+    }
+    nav ul li{
+        list-style: none;
+        padding: 0.5rem;
+        background-color: white;
+        color: black;
+        border-radius: 0.2rem;
+    }
+    
+    .search i{
+        margin-left: -1.8vh;
+        font-size: 1.4vh;
+        color: black;
+        background-color: white;
+    }
+    nav input,.search{
+       display: none;
+    }
+
+
+
+
+
+    
+    .hero-outer{
+        width: 100%;
+        background-color: black;
+        height: 35vh;
+        padding: 1.5vh 3vh;
+    }
+    
+    .hero-inner{
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .hero-inner h1{
+        margin-top: 1.5vw;
+       font-size: 3vh;
+       color: white;
+    }
+    .hero-inner p{
+        margin-top: 1.5vw;
+        font-size: 1.5vh;
+        color: white;
+     }
+    
+    .hero-inner button{
+        margin-top: 1.5vw;
+        width: 15vh;
+        font-size: 2vh;
+        padding: 0.5vh;
+        background-color: rgb(230, 151, 31);
+        border: none;
+        border-radius: 0.2vw;
+     }
+    .hero-inner img{
+        height: 15vh;
+    }
+    
+    
+
+
+    .food-card-outer{
+        width: 100%;
+        height: 210vh;
+        background-color: aliceblue;
+        text-align: center;
+        padding: 1.5vh 3vh;
+    }
+    
+    .food-card-outer span{
+        color: rgb(230, 151, 31);
+    }
+    .food-card-outer h2{
+        font-size: 2.3vh;
+    }
+    
+    .food-card-inner{
+        padding-top:1.5vh;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2vh;
+
+    }
+    
+    .food-item{
+        width: 25vh;
+        height: 32vh;
+        border: 2px solid black;
+        text-align: center;
+        border-radius: 1.2vw;
+
+    }
+    
+    .food-item img{
+        padding: 0.5vh;
+        overflow: hidden;
+    }
+    
+    .food-item h2{
+       padding-left: 0.5vh;
+    }
+    .food-item p{
+        padding-left: 0.5vw;
+        font-size: 1.7vh;
+    }
+    
+    .food-item button{
+        margin-left: 0.5vh;
+        margin-top: 0.5vh;
+        font-size: 2vh;
+        width: 12vh;
+        height: 3vh;
+        padding: 0.1vw 1vw;
+        background-color: rgb(230, 151, 31);
+        border: none;
+        border-radius: 0.1vw;
+    }
+    .food-item img{
+        width: 25vh;
+        height: 18vh;
+    }
+    
+    .food-item:hover{
+        transform: scale(1.1);
+        transition: 0.5s ease-in-out;
+    }
+    
+    
+
+
+
+
+    .customer-outer{
+        text-align: center;
+        width: 100%;
+        height: 35vh;
+        background-color: black;
+        color: white;
+        padding: 1.5vw 3vw;
+    }
+    
+    .customer-outer h2{
+        font-size: 3vh;
+    }
+    .customer-inner{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1.5vw 0;
+        border-radius: 1.2vw;
+    }
+    
+    .customer-review{
+        width: 40vh;
+        height: 25vh;
+        background-color: aliceblue;
+        color: black;
+        justify-content: center;
+        padding: 2vw 4vw;
+    
+    }
+    .customer-review h4{
+        margin-top: 0.5vh;
+        font-size: 2vh;
+    
+    }
+    .customer-review p{
+        font-size: 1.5vh;
+        margin-top: 0.5vh;
+    
+    }
+    
+    .customer-review img{
+        width: 10vh;
+        height: 10vh;
+        border-radius: 50%;
+    }
+    
+    .review-btn{
+        margin-left: 0.5vw;
+        margin-top: 0.5vw;
+        font-size: 2vh;
+        width: 12vh;
+        height: 3vh;
+        padding: 0.1vw 1vw;
+        background-color: rgb(230, 151, 31);
+        border: none;
+        border-radius: 0.1vw;
+    }
+    
+    
+footer{
+    padding: 0 4vh;
+    background-color: white;
+    border-top:2px solid white;
+    width: 100%;
+    height: 15vh;
+}
+
+.footer-menu{
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.5vh;
+    font-size: 2vh;
+    gap: 1.2vh;
+}
+
+.footer-menu ul{
+   list-style: none;
+
+}
+    
+}
